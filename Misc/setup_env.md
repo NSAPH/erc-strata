@@ -80,7 +80,7 @@ conda env create -n r_env_1 -f r_env_1.yaml
 conda activate r_env_1
 ```
 
-- Step 8: Start and R session.
+- Step 8: Start an R session.
 
 ```S
 R

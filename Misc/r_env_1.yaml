@@ -1,0 +1,20 @@
+name: r_env_1
+channels:
+  - conda-forge
+dependencies:
+  - r-base=4.1
+  - r-tidyverse
+  - r-devtools
+  - r-xgboost
+  - r-superlearner
+  - r-earth
+  - r-ranger
+  - r-gam
+  - r-kernsmooth
+  - r-gnm
+  - r-polycor
+  - r-wcorr
+  - r-rlang
+  - r-glue
+  - r-logger
+  - r-cli
