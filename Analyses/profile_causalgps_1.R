@@ -2,6 +2,13 @@
 ##      created: March 2022
 ##      purpose: Profiling the CausalGPS package with the study data.
 
+## Summary:
+#  TODO: A short summary of test goes here.
+#
+#
+#
+
+
 # See Misc/env_setup.md for setting up environment.
 
 ## Load libraries --------------------------------------------------------------
@@ -21,7 +28,7 @@ load(dir_data_qd)
 
 print(paste0("Length of data:  ", nrow(covariates_white_male_qd)))
 
-## Pre-processing ---------------------------------------------------------------
+## Pre-processing --------------------------------------------------------------
 
 
 covariates_white_male_qd$year<-as.factor(covariates_white_male_qd$year)
